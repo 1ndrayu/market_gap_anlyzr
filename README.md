@@ -1,6 +1,10 @@
 # market_gap_anlyzr
 Scrapes forums & social media for unmet needs using NLP.
 
+## Install
+```sh
+pip install -r requirements.txt
+
 market-gap-analyzer/
 │── data/                     # Stores raw & processed data
 │── models/                   # Trained NLP models (optional)
