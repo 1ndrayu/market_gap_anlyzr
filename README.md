@@ -6,18 +6,14 @@ Scrapes forums & social media for unmet needs using NLP.
 pip install -r requirements.txt
 
 market-gap-analyzer/
-│── data/                     # Stores raw & processed data
-│── models/                   # Trained NLP models (optional)
-│── notebooks/                # Jupyter Notebooks for exploration
-│── src/                      # Source code
-│   │── scraper.py            # Reddit scraping script
-│   │── nlp_analysis.py       # NLP & sentiment analysis
-│   │── insights.py           # Market gap detection logic
-│   │── config.py             # API keys & settings (add to .gitignore)
-│── dashboard/                # Future dashboard UI (Streamlit)
-│── requirements.txt          # Python dependencies
-│── README.md                 # Project documentation
-│── .gitignore                # Ignore unnecessary files
+│── data/
+│── src/
+│   │── scraper.py
+│   │── nlp_analysis.py
+│   │── insights.py
+│   │── config.py
+│── requirements.txt
+│── README.md
 
 ---
 
