@@ -11,13 +11,13 @@ An AI-powered tool that identifies unmet market demands by analyzing online conv
 
 ## 📂 Project Structure
 market_gap_anlyzr/ │ 
-├── scraper/      # Web scraping scripts 
-├── nlp_engine/   # NLP models and processing 
-├── data/         # Collected and processed datasets 
-├── analysis/     # Insight generation and visualization 
-├── utils/        # Helper functions 
-├── main.py       # Entry point 
-└── requirements.txt # Dependencies
+├── scraper/
+├── nlp_engine/
+├── data/
+├── analysis/
+├── utils/
+├── main.py
+└── requirements.txt
 
 ## 🛠️ Tech Stack
 
