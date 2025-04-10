@@ -1,15 +1,15 @@
-# Market Gap Analyzer 🧠📊
+# Market Gap Analyzer
 
 An AI-powered tool that identifies unmet market demands by analyzing online conversations, forums, and industry trends. It scrapes data from various sources, processes it using NLP, and reveals hidden market opportunities.
 
-## 🚀 Features
+## Features
 
-- 🔍 Web Scraping from industry reports, social media, and forums  
-- 🧠 NLP-Powered Insight Extraction (via BERT/GPT)  
-- 📈 Sentiment and Trend Analysis  
-- 💡 Opportunity Detection based on unmet needs  
+- Web Scraping from industry reports, social media, and forums  
+- NLP-Powered Insight Extraction (via BERT/GPT)  
+- Sentiment and Trend Analysis  
+- Opportunity Detection based on unmet needs  
 
-## 📂 Project Structure
+## Project Structure
 market_gap_anlyzr/ │ 
 ├── scraper/
 ├── nlp_engine/
@@ -19,7 +19,7 @@ market_gap_anlyzr/ │
 ├── main.py
 └── requirements.txt
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python
 - BeautifulSoup / Scrapy
@@ -27,7 +27,7 @@ market_gap_anlyzr/ │
 - Scikit-learn / Pandas / Numpy
 - Matplotlib / Seaborn
 
-## 🧪 How to Run
+## How to Run
 
 ```bash
 # Clone the repo
