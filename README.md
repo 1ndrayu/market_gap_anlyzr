@@ -10,7 +10,14 @@ An AI-powered tool that identifies unmet market demands by analyzing online conv
 - 💡 Opportunity Detection based on unmet needs  
 
 ## 📂 Project Structure
-
+market_gap_anlyzr/ │ 
+├── scraper/      # Web scraping scripts 
+├── nlp_engine/   # NLP models and processing 
+├── data/         # Collected and processed datasets 
+├── analysis/     # Insight generation and visualization 
+├── utils/        # Helper functions 
+├── main.py       # Entry point 
+└── requirements.txt # Dependencies
 
 ## 🛠️ Tech Stack
 
