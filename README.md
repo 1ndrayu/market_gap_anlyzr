@@ -1,28 +1,34 @@
-# market_gap_anlyzr
-Scrapes forums & social media for unmet needs using NLP.
+# Market Gap Analyzer 🧠📊
 
-## Install
-```sh
+An AI-powered tool that identifies unmet market demands by analyzing online conversations, forums, and industry trends. It scrapes data from various sources, processes it using NLP, and reveals hidden market opportunities.
+
+## 🚀 Features
+
+- 🔍 Web Scraping from industry reports, social media, and forums  
+- 🧠 NLP-Powered Insight Extraction (via BERT/GPT)  
+- 📈 Sentiment and Trend Analysis  
+- 💡 Opportunity Detection based on unmet needs  
+
+## 📂 Project Structure
+
+
+## 🛠️ Tech Stack
+
+- Python
+- BeautifulSoup / Scrapy
+- Hugging Face Transformers (BERT / GPT)
+- Scikit-learn / Pandas / Numpy
+- Matplotlib / Seaborn
+
+## 🧪 How to Run
+
+```bash
+# Clone the repo
+git clone https://github.com/1ndrayu/market_gap_anlyzr.git
+cd market_gap_anlyzr
+
+# Install dependencies
 pip install -r requirements.txt
 
-market-gap-analyzer/
-│── data/
-│── src/
-│   │── scraper.py
-│   │── nlp_analysis.py
-│   │── insights.py
-│   │── config.py
-│── requirements.txt
-│── README.md
-
----
-
-###  `requirements.txt`
-praw
-numpy
-pandas
-nltk
-transformers
-scikit-learn
-torch
-
+# Run the analyzer
+python main.py
